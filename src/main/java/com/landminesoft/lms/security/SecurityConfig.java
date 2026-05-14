@@ -68,7 +68,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/faculty/**").hasAnyRole("FACULTY", "ADMIN")
                         .requestMatchers("/api/student/**").hasAnyRole("STUDENT", "ADMIN")
 
-                        .anyRequest().authenticated()
+                        .anyRequest().permitAll()
                 )
 
                 // ✅ JWT filter
