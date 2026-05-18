@@ -1,5 +1,7 @@
 
 # 🎓 Learning Management System (LMS)
+vercel link : https://college-portal-lms-cz2c.vercel.app/
+backend swagger link: https://lms-backend-x287.onrender.com/swagger-ui/index.html
 
 ## 📌 Project Overview
 
